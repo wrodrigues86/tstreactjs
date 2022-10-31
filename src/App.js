@@ -2,7 +2,11 @@
 function App() {
   return (
     <div>
-      <h2>Teste de deploy</h2>
+      <ul>
+        <li>Identador de JSON</li>
+        <li>Gerador de CPF</li>
+        <li>Mimificador</li>
+      </ul>
     </div>
   );
 }
