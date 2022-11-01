@@ -8,8 +8,8 @@ export default function Rotas() {
         <BrowserRouter>
         <Header />
             <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="/sobre" element={<Sobre />} />
+                <Route path="/" element={<Home />} /> -
+                <Route path="sobre" element={<Sobre />} />
             </Routes>
         </BrowserRouter>
     );
