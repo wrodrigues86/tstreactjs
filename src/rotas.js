@@ -9,7 +9,7 @@ export default function Rotas() {
         <Header />
             <Routes>
                 <Route path="/" element={<Home />}/>
-                <Route path="sobre" element={<Sobre />} />
+                <Route path="/sobre" element={<Sobre />} />
             </Routes>
         </BrowserRouter>
     );
